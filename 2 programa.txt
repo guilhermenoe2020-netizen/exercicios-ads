@@ -1,0 +1,39 @@
+algoritmo "Rotina_Gastos_Trabalho"
+// Diciplina: Íntrodução á Lógica de Programação
+// Objetivo: Calcular gastos da rotina matinal
+
+var
+
+transporte : caractere
+ valorTransp, valorLanche, total : real
+
+ inicio
+ // ÍNICIO DA MANHÃ
+ escreval("---BEM-VINDO Á SUA ROTINA MATINAL---")
+ escreval("STATUS: Acordou e tomou o café")
+ escreval
+ //Entrada de dados
+ escreva("Qual transporte você vai usar hoje? ")
+ leia(transporte)
+ enquanto (transporte <> "App")e(transporte <> "app")e(transporte <> "publico")e(transporte <> "Público")faca
+ escreval("ERRO! digite 'App' ou 'Público' ")
+ escreva("Qual transporte você vai usar hoje? (Público/App): ")
+ leia(transporte)
+ fimenquanto
+ escreval("Qual valor da passagem ou da corrida")
+ escreva("R$: ")
+ leia(valorTransp)
+ escreval("Quanto gastou com Lanche extra no caminho ")
+ escreva ("R$: ")
+ leia(valorLanche)
+ //Processamento:Cáculo da soma
+ total<-valorTransp + valorLanche
+
+ //Saída de dados
+ escreval("---------------------------------")
+ escreval("chegando ao trabalho...")
+ escreval("Transporte utilizado: ", transporte)
+ escreval("TOTAL GASTO NA MANHÃ R$: ", total :8:2)
+  escreval("---------------------------------")
+
+  fimalgoritmo
