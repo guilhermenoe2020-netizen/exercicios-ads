@@ -1,0 +1,72 @@
+algoritmo "EXERCICIO DE FIXAÇÃO"
+
+var
+
+  av1 : real
+  av2 : real
+  av3 : real
+  av4 : real
+  media: real
+  
+  inicio
+
+    escreval ("                       MEDIA DA AVALIAÇÕES               ")
+    escreval
+    escreva(" Digite sua AV1: ")
+    leia (av1)
+    enquanto (av1<0)ou(av1>10) FACA
+    escreval(" ERRO!")
+    escreval("----------------------")
+    escreva (" digite novamente! :")
+    leia(av1)
+    fimenquanto
+    
+    escreva(" Digite sua AV2: ")
+    leia(av2)
+    enquanto (av2<0)ou(av2>10) FACA
+    escreval(" ERRO!")
+    escreval("----------------------")
+    escreva (" digite novamente! :")
+    leia(av2)
+    fimenquanto
+    
+    escreva(" Digite sua AV3: ")
+    leia(av3)
+    enquanto (av3<0)ou(av3>10) faca
+    escreval(" ERRO!")
+    escreval("----------------------")
+    escreva (" digite novamente! :")
+    leia(av3)
+    fimenquanto
+    
+    escreva(" Digite sua AV4: ")
+    leia(av4)
+    enquanto (av4<0)ou(av4>10) faca
+    escreval(" ERRO!")
+    escreval("----------------------")
+    escreva (" digite novamente! :")
+    leia(av4)
+    fimenquanto
+    
+    media <-(av1+av2+av3+av4)/4
+    escreval
+    escreval(" MEDIA:",media)
+
+    se media >=7 entao
+    escreval
+    escreval (" APROVADO")
+    escreval
+    escreval(" ----------------------")
+    escreval
+    escreval(" EXCELENTE")
+    escreval
+    senao
+    escreval(" REPROVADO")
+    escreval
+    escreval(" ----------------------")
+    escreval
+    escreval(" HORRÍVEL")
+    
+    fimse
+
+    fimalgoritmo
