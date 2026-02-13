@@ -1,0 +1,36 @@
+algoritmo "Meu Primeiro Programa"
+
+var
+  
+   transporte: inteiro
+    valorTransp:inteiro
+     valorLanche:inteiro
+      soma:inteiro
+       total:real
+
+
+inicio
+
+   escreval("---BOM-DIA CHEFE!---")
+   escreval("_______________________________")
+   escreval(" Status: Acordou e tomou café.")
+   escreval
+   escreval(" Qual transporte você vai usar hoje?: ")
+     leia(transporte)
+   escreval(" Qual valor da passagem ou da corrida: ")
+     leia(valorTransp)
+   escreval(" Quanto gastou com café/lanche no caminho?: ")
+     leia(valorLanche)
+       soma<-(valorTransp*1)+(valorLanche*1)
+        total<-soma
+  
+   escreval("-------------------------------------------")
+    //saida de dados
+   escreval(" Chegando ao trablho...")
+   escreval(" Transporte utilizado: ",transporte)
+   escreval(" Valor do transporte: ",valorTransp " R$")
+   escreval(" Valor do Lanche/café: ",valorLanche" R$")
+   escreval(" TOTAL GASTO NA MANHÃ: ",total " R$")
+  escreval("-------------------------------------------")
+
+fimalgoritmo
