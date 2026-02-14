@@ -1,0 +1,43 @@
+algoritmo "times"
+
+var
+   nome: caractere
+   time: caractere
+   senha: caractere
+
+inicio
+
+   escreval("---Pesquise sobre os maiores times do brasil---")
+   escreval(" ")
+
+   escreva("Digite seu nome: ")
+   leia(nome)
+
+   escreva("Insira sua senha: ")
+   leia(senha)
+
+   escreval(" ")
+   escreval("Acesso liberado")
+   escreval("________________________________________")
+
+   escreval("Ola ", nome)
+   escreval(" ")
+
+   escreva("Procure por times brasileiros: ")
+   leia(time)
+
+   se time = "flamengo" entao
+      escreval("Time gigante, torcida absurda e sempre brigando por titulo.")
+   senao
+      se time = "palmeiras" entao
+         escreval("Time bom... mas voce sabe que 51 e pinga, ne?")
+      senao
+         se time = "corinthians" entao
+            escreval("Time que transforma jogo facil em teste cardiaco.")
+         senao
+            escreval("Time pequeno demais.")
+         fimse
+      fimse
+   fimse
+
+fimalgoritmo
